@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input,textarea,button,select,a{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:focus,a:visited,a:active{
+    outline: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+
+.wave-con{
+    /* width: 25vw;
+    height: 25vh;
+    background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wave{
+    position: absolute;
+    border: 1px solid rgb(0, 85, 255);
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    transform: rotateX(50deg);
+}
+
+.wave1{
+    width: 4vw;
+    height: 4vw;
+    animation: updown 1s ease-in-out infinite;
+}
+
+.wave2{
+    width: 6vw;
+    height: 6vw;
+    animation: updown 1s ease-in-out  0.1s infinite;
+}
+
+.wave3{
+    width: 8vw;
+    height: 8vw;
+    animation: updown 1s ease-in-out 0.2s infinite;
+}
+
+.wave4{
+    width: 10vw;
+    height: 10vw;
+    animation: updown 1s ease-in-out 0.3s infinite;
+}
+
+.wave5{
+    width: 12vw;
+    height: 12vw;
+    animation: updown 1s ease-in-out 0.4s infinite;
+}
+
+.wave6{
+    width: 14vw;
+    height: 14vw;
+    animation: updown 1s ease-in-out 0.5s infinite;
+}
+
+.wave7{
+    width: 16vw;
+    height: 16vw;
+    animation: updown 1s ease-in-out 0.6s infinite;
+}
+
+.wave8{
+    width: 18vw;
+    height: 18vw;
+    animation: updown 1s ease-in-out 0.7s infinite;
+}
+
+.wave9{
+    width: 20vw;
+    height: 20vw;
+    animation: updown 1s ease-in-out 0.8s infinite;
+}
+
+.wave10{
+    width: 22vw;
+    height: 22vw;
+    animation: updown 1s ease-in-out 0.9s infinite;
+}
+
+.wave11{
+    width: 24vw;
+    height: 24vw;
+    animation: updown 1s ease-in-out 1s infinite;
+}
+
+.wave12{
+    width: 26vw;
+    height: 26vw;
+    animation: updown 1s ease-in-out 1.1s infinite;
+}
+
+.wave13{
+    width: 28vw;
+    height: 28vw;
+    animation: updown 1s ease-in-out 1.2s infinite;
+}
+
+.wave14{
+    width: 30vw;
+    height: 30vw;
+    animation: updown 1s ease-in-out 1.3s infinite;
+}
+
+.wave15{
+    width: 32vw;
+    height: 32vw;
+    animation: updown 1s ease-in-out 1.4s infinite;
+}
+
+.wave16{
+    width: 34vw;
+    height: 34vw;
+    animation: updown 1s ease-in-out 1.5s infinite;
+}
+
+.wave17{
+    width: 36vw;
+    height: 36vw;
+    animation: updown 1s ease-in-out 1.6s infinite;
+}
+
+.wave18{
+    width: 38vw;
+    height: 38vw;
+    animation: updown 1s ease-in-out 1.7s infinite;
+}
+
+.wave19{
+    width: 40vw;
+    height: 40vw;
+    animation: updown 1s ease-in-out 1.8s infinite;
+}
+
+.wave20{
+    width: 42vw;
+    height: 42vw;
+    animation: updown 1s ease-in-out 1.9s infinite;
+}
+
+@keyframes updown {
+    0%{
+        transform: rotateX(50deg) translateY(0%);
+        border: 2px solid rgb(116, 116, 255);
+    }
+    50%{
+        transform: rotateX(50deg) translateY(-13%);
+        border: 1.5px solid rgb(165, 165, 255);
+    }
+    100%{
+        transform: rotateX(50deg) translateY(0%);
+        border: 1px solid rgb(188, 188, 255);
+    }
+}
